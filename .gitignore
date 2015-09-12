@@ -1,2 +1,6 @@
 build.xml
 manifest.mf
+/FileMerger/nbproject/private/
+/nbproject/private/
+nbproject/
+nbbuild.xml
