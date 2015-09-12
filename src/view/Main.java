@@ -1,5 +1,9 @@
 package view;
 
+import controller.Filecontroller;
+import java.io.IOException;
+import model.Filehandler;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,6 +16,7 @@ package view;
  */
 public class Main {
     public static void main(String arg[]){
-        System.out.println("Welcome!");
+        Filecontroller fileController = new Filecontroller();
+        System.out.println("Unique text: "+ fileController.GetUniqueText());
     }
 }
