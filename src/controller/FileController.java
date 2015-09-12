@@ -11,31 +11,31 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import model.Filehandler;
+import model.FileHandler;
 
 /**
  *
  * @author user
  */
-public class Filecontroller {
+public class FileController {
     public String GetUniqueText(){
         ArrayList<String> contents = new ArrayList<>();
         try{
-         Filehandler fileHandler = new Filehandler();
+         FileHandler fileHandler = new FileHandler();
         contents.addAll(fileHandler.ReadFile("D://d1.txt")); 
         }catch(IOException e){
             e.printStackTrace();
         }
         
         try{
-         Filehandler fileHandler = new Filehandler();
+         FileHandler fileHandler = new FileHandler();
         contents.addAll(fileHandler.ReadFile("D://d2.txt")); 
         }catch(IOException e){
             e.printStackTrace();
         }
         
         try{
-         Filehandler fileHandler = new Filehandler();
+         FileHandler fileHandler = new FileHandler();
         contents.addAll(fileHandler.ReadFile("D://d3.txt")); 
         }catch(IOException e){
             e.printStackTrace();

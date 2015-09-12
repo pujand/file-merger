@@ -1,8 +1,8 @@
 package view;
 
-import controller.Filecontroller;
+import controller.FileController;
 import java.io.IOException;
-import model.Filehandler;
+import model.FileHandler;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -16,7 +16,7 @@ import model.Filehandler;
  */
 public class Main {
     public static void main(String arg[]){
-        Filecontroller fileController = new Filecontroller();
+        FileController fileController = new FileController();
         System.out.println("Unique text: "+ fileController.GetUniqueText());
     }
 }

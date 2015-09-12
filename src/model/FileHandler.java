@@ -14,7 +14,7 @@ import java.util.ArrayList;
  *
  * @author user
  */
-public class Filehandler {
+public class FileHandler {
     
     public ArrayList<String> ReadFile(String filePath) throws IOException{
         ArrayList<String> fileContent = new ArrayList<>();
